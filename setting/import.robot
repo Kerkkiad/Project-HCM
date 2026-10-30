@@ -1,0 +1,19 @@
+*** Settings ***
+Library    Browser
+Library    DateTime
+Library    String
+Library    Collections
+Resource   ../resources/keywords/common.robot
+Resource   ../resources/keywords/Hire_an_Employee/HCM_Assignment.robot
+Resource   ../resources/keywords/Hire_an_Employee/HCM_Manager.robot
+Resource   ../resources/keywords/Hire_an_Employee/HCM_PersonalDetail.robot
+Resource   ../resources/keywords/Hire_an_Employee/HCM_WhenAndWhy.robot
+Resource   ../resources/keywords/HCM_Position.robot
+Resource   ../resources/keywords/HCM_Account.robot
+Resource   ../resources/keywords/HCM_PaymentMethod.robot
+Resource   ../resources/keywords/HCM_Performance.robot
+Resource   ../resources/keywords/HCM_Notification.robot
+Resource   ../resources/keywords/HCM_ScheduledAdmin.robot
+Resource   ../resources/variables/element_selector/common.robot
+Resource   ../resources/variables/element_selector/selector_hcm.robot
+Resource   ../resources/variables/test_data/testdata_hcm.robot
